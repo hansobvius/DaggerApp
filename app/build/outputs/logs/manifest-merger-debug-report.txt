@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.databinding:adapters:3.4.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\605512ab5c945dbc2dd9e1f06e1b0453\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.4.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\19d8c1d6895bdd61d2308d862e94c147\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\a107791a7fa0d9cc620b822f1356741a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7b3370696c5978c42ec4f8f7f50080ed\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\9ffb966e91270531dd26883832fd1405\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\d5f7191319c5a68e4e2e1b5eefaab0b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\b8b72c0f34061a67a5b88ab8b6f4f489\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\dd404cb6c5c756f3db16f569c0afbdf3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\de6c0cc8673302c6aad98de306c361f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\829e0e79320e1bf421675efa1a208a8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\666a87bdfd2ef7fda9ef4b6c69cab64b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\f63aef51611508403243405bc8471de3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\553493a02c7d21b9de011d8a33bee740\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1933e6dcdeaecb382634186b7c5acfff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\0f8b6c8065ebef82d5d2709a890345f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\e6c5fad95a5c2ab5bcace6e9616f3a66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\f3ec854175bf0c06303e536a03a3d401\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7382bfdc8ea97c13ed31621206076c61\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\fce3a940545665e5bdabafc5832533e0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\c61acb01073c57ce3bcb7f7303a6456d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\3c25da3e8b6371f9ecc2aa36705cc42f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\bdfed52f353d2ec9ffe893c2737b0ebd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\6471a0b15d74f96d6490031624d884b8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\62657b2d453105ebda89810fb9794154\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\8d757090eebbcc155b025e4f8a973bde\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\dfcc1880aee4184386a4d4f2617a1ec9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\3dd29de8f67b47596997256795fa67c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\ec18abc029e44c9950e8efb530f2f9a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\fac880994c57c5122a3f0c427af862bd\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7b3370696c5978c42ec4f8f7f50080ed\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7b3370696c5978c42ec4f8f7f50080ed\AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7382bfdc8ea97c13ed31621206076c61\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7382bfdc8ea97c13ed31621206076c61\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\c61acb01073c57ce3bcb7f7303a6456d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\c61acb01073c57ce3bcb7f7303a6456d\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7382bfdc8ea97c13ed31621206076c61\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.android.daggerapp.view.activities.MainActivity
+ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:12:19-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.4.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\605512ab5c945dbc2dd9e1f06e1b0453\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.4.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\605512ab5c945dbc2dd9e1f06e1b0453\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.4.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\19d8c1d6895bdd61d2308d862e94c147\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.4.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\19d8c1d6895bdd61d2308d862e94c147\AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\a107791a7fa0d9cc620b822f1356741a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\a107791a7fa0d9cc620b822f1356741a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7b3370696c5978c42ec4f8f7f50080ed\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7b3370696c5978c42ec4f8f7f50080ed\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\9ffb966e91270531dd26883832fd1405\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\9ffb966e91270531dd26883832fd1405\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\d5f7191319c5a68e4e2e1b5eefaab0b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\d5f7191319c5a68e4e2e1b5eefaab0b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\b8b72c0f34061a67a5b88ab8b6f4f489\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\b8b72c0f34061a67a5b88ab8b6f4f489\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\dd404cb6c5c756f3db16f569c0afbdf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\dd404cb6c5c756f3db16f569c0afbdf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\de6c0cc8673302c6aad98de306c361f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\de6c0cc8673302c6aad98de306c361f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\829e0e79320e1bf421675efa1a208a8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\829e0e79320e1bf421675efa1a208a8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\666a87bdfd2ef7fda9ef4b6c69cab64b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\666a87bdfd2ef7fda9ef4b6c69cab64b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\f63aef51611508403243405bc8471de3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\f63aef51611508403243405bc8471de3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\553493a02c7d21b9de011d8a33bee740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\553493a02c7d21b9de011d8a33bee740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1933e6dcdeaecb382634186b7c5acfff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1933e6dcdeaecb382634186b7c5acfff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\0f8b6c8065ebef82d5d2709a890345f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\0f8b6c8065ebef82d5d2709a890345f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\e6c5fad95a5c2ab5bcace6e9616f3a66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\e6c5fad95a5c2ab5bcace6e9616f3a66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\f3ec854175bf0c06303e536a03a3d401\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\f3ec854175bf0c06303e536a03a3d401\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7382bfdc8ea97c13ed31621206076c61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7382bfdc8ea97c13ed31621206076c61\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\fce3a940545665e5bdabafc5832533e0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\fce3a940545665e5bdabafc5832533e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\c61acb01073c57ce3bcb7f7303a6456d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\c61acb01073c57ce3bcb7f7303a6456d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\3c25da3e8b6371f9ecc2aa36705cc42f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\3c25da3e8b6371f9ecc2aa36705cc42f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\bdfed52f353d2ec9ffe893c2737b0ebd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\bdfed52f353d2ec9ffe893c2737b0ebd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\6471a0b15d74f96d6490031624d884b8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\6471a0b15d74f96d6490031624d884b8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\62657b2d453105ebda89810fb9794154\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\62657b2d453105ebda89810fb9794154\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\8d757090eebbcc155b025e4f8a973bde\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\8d757090eebbcc155b025e4f8a973bde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\dfcc1880aee4184386a4d4f2617a1ec9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\dfcc1880aee4184386a4d4f2617a1ec9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\3dd29de8f67b47596997256795fa67c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\3dd29de8f67b47596997256795fa67c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\ec18abc029e44c9950e8efb530f2f9a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\ec18abc029e44c9950e8efb530f2f9a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\fac880994c57c5122a3f0c427af862bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\fac880994c57c5122a3f0c427af862bd\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\thiag\AndroidStudioProjects\Dagger\DaggerApp\app\src\main\AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:24:13-83

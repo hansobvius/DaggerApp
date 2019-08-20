@@ -10,28 +10,15 @@ import java.util.List;
 
 public class ProjectRepository {
 
-    private static final ProjectRepository ourInstance = new ProjectRepository();
+    private List<ProjectModel> projectModelList;
 
-    public static ProjectRepository getInstance() {
-        return ourInstance;
-    }
-
-    private ProjectRepository() {
+    public ProjectRepository(List<ProjectModel> projectModelList) {
+        this.projectModelList = projectModelList;
     }
 
     public LiveData<List<ProjectModel>> getProjectList(){
         final MutableLiveData<List<ProjectModel>> data = new MutableLiveData<>();
-        data.setValue(getList());
+        data.setValue(projectModelList);
         return data;
-    }
-
-    public List<ProjectModel> getList(){
-        List<ProjectModel> items = new ArrayList<>();
-        for(int i = 0; i <5 ; i++){
-            ProjectModel projectModel = new ProjectModel();
-            projectModel.setTitle("project " + i);
-            items.add(projectModel);
-        }
-        return items;
     }
 }
