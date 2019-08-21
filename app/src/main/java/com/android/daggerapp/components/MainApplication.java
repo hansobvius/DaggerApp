@@ -8,7 +8,7 @@ public class MainApplication extends Application {
 
     private static MainApplication mainApplication;
 
-    private MainComponent mainComponent;
+    MainComponent mainComponent;
 
     public static MainApplication getApp(){
         return mainApplication;
@@ -18,8 +18,9 @@ public class MainApplication extends Application {
     public void onCreate(){
         super.onCreate();
         mainApplication = this;
-        mainComponent.inject(this);
         initializaComponent();
+
+        mainComponent.inject(this);
     }
 
     private void initializaComponent() {

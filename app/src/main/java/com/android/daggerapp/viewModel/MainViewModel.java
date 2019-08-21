@@ -19,15 +19,15 @@ import javax.inject.Inject;
 
 public class MainViewModel extends AndroidViewModel {
 
-    private final LiveData<List<ProjectModel>> projectListing;
+    public final LiveData<List<ProjectModel>> projectListing;
 
     @Inject
-    public ProjectRepository projectRepository;
+    ProjectRepository projectRepository;
 
     public MainViewModel(Application application){
         super(application);
         MainApplication.getApp().getMainComponent().inject(this);
-        projectListing  = projectRepository.getProjectList();
+        projectListing = projectRepository.getProjectList();
     }
 
     public LiveData<List<ProjectModel>> getProjectListObservable(){

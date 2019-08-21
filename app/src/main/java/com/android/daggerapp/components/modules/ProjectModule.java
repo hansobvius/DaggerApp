@@ -37,4 +37,9 @@ public class ProjectModule {
         return new ProjectRepository(projectModelList);
     }
 
+    @Provides
+    @Singleton
+    MainApplication providesMainApplication(){
+        return new MainApplication();
+    }
 }
