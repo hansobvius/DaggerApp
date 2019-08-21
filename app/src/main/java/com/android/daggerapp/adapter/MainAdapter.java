@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.android.daggerapp.R;
+import com.android.daggerapp.components.MainComponent;
 import com.android.daggerapp.databinding.ItemLayoutBinding;
 import com.android.daggerapp.model.ProjectModel;
 import com.android.daggerapp.viewModel.MainViewModel;
@@ -15,11 +16,15 @@ import com.android.daggerapp.viewModel.MainViewModel;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Inject;
+
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class MainAdapter extends BaseAdapter {
 
     private Context context;
+    MainComponent mainComponent;
     LayoutInflater layoutInflater;
     List<ProjectModel> projectModelList = new ArrayList<>();
 
@@ -48,13 +53,18 @@ public class MainAdapter extends BaseAdapter {
         return position;
     }
 
-    @BindView(R.id.title)
-    TextView title;
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View view = layoutInflater.inflate(R.layout.item_layout, null);
-        title.setText(projectModelList.get(position).getTitle());
+        ViewHolder viewHolder = new ViewHolder(view);
+        viewHolder.title.setText(projectModelList.get(position).getTitle());
         return view;
+    }
+
+    static final class ViewHolder{
+        @BindView(R.id.title) TextView title;
+        ViewHolder(View view){
+            ButterKnife.bind(this, view);
+        }
     }
 }

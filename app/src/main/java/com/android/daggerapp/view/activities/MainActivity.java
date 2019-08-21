@@ -12,6 +12,8 @@ import android.widget.ListView;
 
 import com.android.daggerapp.R;
 import com.android.daggerapp.adapter.MainAdapter;
+import com.android.daggerapp.components.MainApplication;
+import com.android.daggerapp.components.MainComponent;
 import com.android.daggerapp.databinding.ActivityMainBinding;
 import com.android.daggerapp.model.ProjectModel;
 import com.android.daggerapp.presenter.MainContractor;
@@ -27,6 +29,8 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements LifecycleOwner, MainContractor.MainView {
 
+    MainComponent mainComponent;
+
     @Inject
     MainAdapter mainAdapter;
 
@@ -39,8 +43,8 @@ public class MainActivity extends AppCompatActivity implements LifecycleOwner, M
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
+        MainApplication.getApp().getMainComponent().inject(this);
         projectList.setAdapter(mainAdapter);
-
     }
 
     @Override
