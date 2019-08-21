@@ -33,10 +33,6 @@
             android:authorities="com.android.daggerapp.lifecycle-trojan"
             android:exported="false"
             android:multiprocess="true" />
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.android.daggerapp.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

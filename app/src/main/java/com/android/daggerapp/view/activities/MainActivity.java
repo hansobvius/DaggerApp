@@ -11,25 +11,28 @@ import android.os.Bundle;
 
 import com.android.daggerapp.R;
 import com.android.daggerapp.adapter.MainAdapter;
+import com.android.daggerapp.components.MainApplication;
 import com.android.daggerapp.databinding.ActivityMainBinding;
 import com.android.daggerapp.model.ProjectModel;
 import com.android.daggerapp.viewModel.MainViewModel;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
 public class MainActivity extends AppCompatActivity implements LifecycleOwner {
 
     ActivityMainBinding binding;
+
+    @Inject
     MainAdapter mainAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        MainApplication.getApp().getMainComponent().inject(this);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        mainAdapter = new MainAdapter(this);
         binding.projectList.setAdapter(mainAdapter);
-
     }
 
     @Override

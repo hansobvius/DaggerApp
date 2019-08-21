@@ -1,5 +1,6 @@
 package com.android.daggerapp.components.modules;
 
+import com.android.daggerapp.adapter.MainAdapter;
 import com.android.daggerapp.components.MainApplication;
 import com.android.daggerapp.model.ProjectModel;
 import com.android.daggerapp.repository.ProjectRepository;
@@ -15,8 +16,10 @@ import dagger.Provides;
 @Module
 public class ProjectModule {
 
-    public ProjectModule(MainApplication mainApplication){
+    MainApplication mainApplication;
 
+    public ProjectModule(MainApplication mainApplication){
+        this.mainApplication = mainApplication;
     }
 
     @Provides
@@ -41,5 +44,11 @@ public class ProjectModule {
     @Singleton
     MainApplication providesMainApplication(){
         return new MainApplication();
+    }
+
+    @Provides
+    @Singleton
+    MainAdapter providesMainAdapter(){
+        return new MainAdapter(mainApplication.getApplicationContext());
     }
 }
