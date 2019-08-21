@@ -9,6 +9,7 @@ MERGED from [com.android.databinding:library:3.4.1] C:\Users\thiag\.gradle\cache
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\a107791a7fa0d9cc620b822f1356741a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7b3370696c5978c42ec4f8f7f50080ed\AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:17:1-30:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\234631a0a03d35ec0693d804c08a9044\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\9ffb966e91270531dd26883832fd1405\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\d5f7191319c5a68e4e2e1b5eefaab0b9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\b8b72c0f34061a67a5b88ab8b6f4f489\AndroidManifest.xml:17:1-22:12
@@ -105,6 +106,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\th
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\7b3370696c5978c42ec4f8f7f50080ed\AndroidManifest.xml:5:5-7:41
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\1beb3b167b743b7f6d1e8b6dd364bfb1\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\234631a0a03d35ec0693d804c08a9044\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\234631a0a03d35ec0693d804c08a9044\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\9ffb966e91270531dd26883832fd1405\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\9ffb966e91270531dd26883832fd1405\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\thiag\.gradle\caches\transforms-2\files-2.1\d5f7191319c5a68e4e2e1b5eefaab0b9\AndroidManifest.xml:20:5-44

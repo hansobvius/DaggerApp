@@ -5,13 +5,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.TextView;
 
+import com.android.daggerapp.R;
 import com.android.daggerapp.databinding.ItemLayoutBinding;
 import com.android.daggerapp.model.ProjectModel;
 import com.android.daggerapp.viewModel.MainViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import butterknife.BindView;
 
 public class MainAdapter extends BaseAdapter {
 
@@ -44,10 +48,13 @@ public class MainAdapter extends BaseAdapter {
         return position;
     }
 
+    @BindView(R.id.title)
+    TextView title;
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        ItemLayoutBinding binding = ItemLayoutBinding.inflate(layoutInflater, parent,false);
-        binding.title.setText(projectModelList.get(position).getTitle());
-        return binding.getRoot();
+        View view = layoutInflater.inflate(R.layout.item_layout, null);
+        title.setText(projectModelList.get(position).getTitle());
+        return view;
     }
 }

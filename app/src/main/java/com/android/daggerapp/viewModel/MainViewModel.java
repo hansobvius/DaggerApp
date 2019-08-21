@@ -4,6 +4,7 @@ import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.ViewModel;
+import android.support.annotation.NonNull;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -19,18 +20,7 @@ import javax.inject.Inject;
 
 public class MainViewModel extends AndroidViewModel {
 
-    public final LiveData<List<ProjectModel>> projectListing;
-
-    @Inject
-    ProjectRepository projectRepository;
-
-    public MainViewModel(Application application){
+    public MainViewModel(@NonNull Application application) {
         super(application);
-        MainApplication.getApp().getMainComponent().inject(this);
-        projectListing = projectRepository.getProjectList();
-    }
-
-    public LiveData<List<ProjectModel>> getProjectListObservable(){
-        return projectListing;
     }
 }

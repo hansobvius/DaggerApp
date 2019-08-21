@@ -8,39 +8,51 @@ import android.databinding.DataBindingUtil;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
 
 import com.android.daggerapp.R;
 import com.android.daggerapp.adapter.MainAdapter;
 import com.android.daggerapp.databinding.ActivityMainBinding;
 import com.android.daggerapp.model.ProjectModel;
+import com.android.daggerapp.presenter.MainContractor;
+import com.android.daggerapp.presenter.MainPresenter;
 import com.android.daggerapp.viewModel.MainViewModel;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements LifecycleOwner {
+import javax.inject.Inject;
 
-    ActivityMainBinding binding;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+public class MainActivity extends AppCompatActivity implements LifecycleOwner, MainContractor.MainView {
+
+    @Inject
     MainAdapter mainAdapter;
+
+    @BindView(R.id.project_list)
+    ListView projectList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
 
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        mainAdapter = new MainAdapter(this);
-        binding.projectList.setAdapter(mainAdapter);
+        projectList.setAdapter(mainAdapter);
 
     }
 
     @Override
     protected void onStart(){
         super.onStart();
-        final MainViewModel viewModel = ViewModelProviders.of(this).get(MainViewModel.class);
-        observeViewModel(viewModel);
+        final MainPresenter mainPresenter = ViewModelProviders.of(this).get(MainPresenter.class);
+        mainPresenter.setUpPresenter(this);
+        observeMainPresenter(mainPresenter);
     }
 
-    private void observeViewModel(MainViewModel viewModel) {
-        viewModel.getProjectListObservable().observe(this, new Observer<List<ProjectModel>>() {
+    private void observeMainPresenter(MainPresenter mainPresenter) {
+        mainPresenter.getProjectListObservable().observe(this, new Observer<List<ProjectModel>>() {
             @Override
             public void onChanged(@Nullable List<ProjectModel> projectModels) {
                 mainAdapter.addItems(projectModels);
